@@ -2,6 +2,8 @@
     "repoOwner": "gareth-ellis",
     "repoName": "ci-playground",
     "targetBranches": ["8.13"],
+    "targetBranchChoices": ["8.13", "8.5", "7.0", "8.5"],
+
     "branchLabelMapping": {
         "^v(\\d+).(\\d+)": "$1.$2"
       },
