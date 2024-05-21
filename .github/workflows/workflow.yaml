@@ -2,7 +2,7 @@ name: Automatic backport action
 
 on:
   pull_request_target:
-    branches: ['master']
+    branches: ['main']
     types: ["labeled", "closed"]
 
 jobs:
